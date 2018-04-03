@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.chaithra.gallery.MainActivity">
+
+    <GridView
+        android:id="@+id/gridview_android_example"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:minHeight="90dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth" />
+    <TextView
+        android:id="@+id/emptyview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:text="Hello World!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
